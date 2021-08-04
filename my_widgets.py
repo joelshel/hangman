@@ -3,6 +3,17 @@ from tkinter.ttk import Button, Frame, Style
 
 class my_button(Frame):
     def __init__(self, master=None, text="", command=None, id=0, underline=-1, width=10):
+        """Method to create a customized button with border.
+
+        Args:
+            master (widget, optional): The widget/frame where would be placed the button. Defaults to None.
+            text (str, optional): The button text. Defaults to "".
+            command (function, optional): A function to execute when the button is clicked. Defaults to None.
+            id (int, optional): The buttons identifier. Defaults to 0.
+            underline (int, optional): The number of the position of the letter you want to underline.
+            If -1 no letters will be underlined. Defaults to -1.
+            width (int, optional): Width of the button equivalent to the number of characters the button can show. Defaults to 10.
+        """
         super().__init__()
         self.id = id
         self.style = Style()
@@ -17,14 +28,25 @@ class my_button(Frame):
                        ) 
         self.btn.bind("<Button-1>", lambda exec: self.config_frm("lightgreen"))
         self.btn.bind("<ButtonRelease-1>", lambda exec: self.config_frm("lightgrey"))
-        # self.style.configure("MyBtn.TButton", background=bg_color, relief=relief)
 
     def grid(self, column=None, row=None, padx=0, pady=0):
-        # super().grid()
+        """Method to grid the button.
+
+        Args:
+            column (int, optional): Column position in master. Defaults to None.
+            row (int, optional): Row position in master. Defaults to None.
+            padx (int, optional): How many pixels to pad widget horizontally. Defaults to 0.
+            pady (int, optional): How many pixels to pad widget vertically. Defaults to 0.
+        """
         self.frm.grid(column=column, row=row)
         self.btn.grid(padx=padx, pady=pady)
 
     def config_frm(self, bd_color=None):
+        """Method to configure the border color of the button.
+
+        Args:
+            bd_color (str, optional): Border color. Defaults to None.
+        """
         self.style.configure(f"MyFrm{self.id}.TFrame", background=bd_color)
 
 if __name__ == "__main__":

@@ -22,18 +22,18 @@ class MainWindow():
         """Initializes some attributes of the backend and frontend game.
         This method does:
         - initializes backend,
-        - set the lives,
-        - set the word,
-        - set the word letters,
-        - set the background color,
+        - sets the lives,
+        - sets the word,
+        - sets the word letters,
+        - sets the background color,
         - initializes the frontend,
-        - set some string vars to update some labels later,
-        - set the name and the geometry of the app,
+        - sets some string vars to update some labels later,
+        - sets the name and the geometry of the app,
         - the frames of the window,
         - the labels of the window,
         - some Styles (for frames and labels),
-        - set the values of some string vars,
-        - read the user input by keyboard.
+        - sets the values of some string vars,
+        - reads the user input by keyboard.
         """
         self.game = Game(words)
         self.game.lives = 7
@@ -271,7 +271,6 @@ class FinishGameWindow():
         self.bg_color ="lightgrey"
         self.root["bg"] = self.bg_color
         self.msg = msg
-        # self.root.after(1, lambda: root.focus_force())
     
     
     def place_win_lbl(self):
