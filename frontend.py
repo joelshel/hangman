@@ -1,6 +1,5 @@
 #!/usr/bin/env python3
 
-
 # https://www.google.com/imgres?imgurl=https%3A%2F%2Fwww.englishclub.com%2Fimages%2Fesl-games%2Fhangman-150.png&imgrefurl=https%3A%2F%2Fwww.englishclub.com%2Fesl-games%2Fhangman&tbnid=DxT3rciERUl0dM&vet=12ahUKEwiUsKSl5OjxAhWwgM4BHXgaAiAQMygNegUIARDRAQ..i&docid=Rhrl4KExmOWbLM&w=150&h=217&q=hangman%20game&hl=pt-PT&client=ubuntu&ved=2ahUKEwiUsKSl5OjxAhWwgM4BHXgaAiAQMygNegUIARDRAQ
 # https://www.englishclub.com/esl-games/hangman/
 # https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.amazon.com%2FBenjamin-Wirtschafter-HangMan-Free%2Fdp%2FB074LTNMVS&psig=AOvVaw3JX1dfRHpJHCMq2RTV5U59&ust=1626565897123000&source=images&cd=vfe&ved=0CAoQjRxqFwoTCJjhub7k6PECFQAAAAAdAAAAABAJ

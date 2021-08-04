@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 
 # code from:
-# https://www.youtube.com/watch?v=8ext9G7xspg&t=5s
+# https://www.youtube.com/watch?v=8ext9G7xspg&t=1465s
 
 words = ('word', 'choice', 'random', 'hello', 'house', 'correct', 'programmer', 'juice', 'cookies', 'chocolate', 'world', 'home', 'welcome', 'wrong', 'scarf', 'attack', 'defense', 'accuracy', 'string', 'integer', 'float', 'risk', 'beautiful', 'sad', 'candle', 'connection', 'risky', 'runner', 'closet', 'mariage')
 from random import choice
