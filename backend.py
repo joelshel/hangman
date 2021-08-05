@@ -25,7 +25,7 @@ def get_words(file):
         words += (word.strip(),)
     return words
 
-words = get_words(file="words.txt")
+words = get_words(file="src/words.txt")
 
 lives = 6
 
