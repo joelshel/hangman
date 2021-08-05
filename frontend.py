@@ -162,7 +162,7 @@ class MainWindow():
             elif self.game.lives and self.game.word_letters:
                 self.game.lives -= 1
                 self.lives_var.set(f"lives: {self.game.lives}")
-                self.update_image(f"hangman_{7-self.game.lives}.png")
+                self.update_image(f"img/hangman_{7-self.game.lives}.png")
                 if not self.game.lives:
                     # self.errorvar.set(f"You lose. The word were {self.game.word}!")
                     self.end_game(f"You lose. The word were {self.game.word}!")
@@ -231,7 +231,7 @@ class MainWindow():
     def start_game(self):
         """Method to execute the app once.
         """
-        self.place_image("hangman.png")
+        self.place_image("img/hangman.png")
         self.set_underlines()
         self.place_buttons()
         self.main_loop()
@@ -240,7 +240,7 @@ class MainWindow():
     def restart_game(self):
         """Method to restart the game.
         """
-        self.update_image("hangman.png")
+        self.update_image("img/hangman.png")
         self.game.lives = 7
         self.game.choose_word()
         # self.game.word = "abcd".upper()
