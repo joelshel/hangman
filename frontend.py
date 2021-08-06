@@ -50,6 +50,7 @@ class MainWindow():
         self.root.title("Hangman")
         self.root.geometry("950x300")
         self.root.minsize(950, 300)
+        self.root.iconphoto(True, tk.PhotoImage(file='img/hangman_7.png'))
         # https://stackoverflow.com/questions/34276663/tkinter-gui-layout-using-frames-and-grid
         # grid problem: object.grid() returns None but object returns the object
         self.style = Style()
